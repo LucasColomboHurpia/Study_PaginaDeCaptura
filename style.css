@@ -1,0 +1,138 @@
+body{background-color: black;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;}
+
+.w {
+    width: 65%;
+}
+
+header{
+    display:block;
+
+     background-color:cornflowerblue;
+
+    padding-top: 10px; 
+    padding-bottom: 10px;
+
+    position: relative;
+
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+
+    margin-top: 0;
+    margin: auto;  
+   }
+
+   #MainBanner{ 
+ 
+    box-sizing: border-box;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/shutterstock_318208019.jpg);
+    overflow:hidden;
+     background-size:cover;
+
+   }
+
+   .Block{    
+    overflow:auto;
+
+/*     border-style: solid;
+    border-width: 2px;
+    border-color: black; */
+    padding: 20px;
+    background-color: rgba(179, 177, 177, 0.719);
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    float: right;    
+    max-width: 250px;
+
+}
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#p2{
+
+    font-size: 13.8px;
+}
+
+.form{
+    border: none;
+    padding: 5px;
+    width: 100%;
+    max-width: 240px;
+}
+
+select{
+    border: none;
+    padding: 5px;
+    width: 100%;
+    max-width: 250px;
+
+        /*this hides the arrow in all browsers*/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+        /*this puts a new arrow*/
+    background-image: url(./Assets/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x:calc(100% - 10px);
+    background-position-y: center ;
+   /* could also use : background-position: calc(100% - 10px) center; */
+
+}
+
+#button{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    background-color: lightseagreen ;
+    font-weight: bold;
+    color: white;
+}
+
+#button:hover{
+    background-color: rgb(24, 129, 124);
+    cursor: pointer;
+}
+
+#bio{
+    display: block;
+    margin: auto;
+    background-color: rgb(53, 52, 52);
+    overflow: hidden;
+     background-size:cover;
+     padding-left: 150px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    box-sizing: border-box;}
+
+#guy{ 
+    float:left;
+    height: 180px;
+}
+
+#titulo{
+    font-weight: bold;
+    color: white;
+    text-indent: 20px;
+}
+
+#background{
+    color: white;
+    max-width: 350px;
+    padding-left: 165px;
+    font-size: 12px;
+}
